@@ -1,0 +1,6 @@
+<h2>Checkout</h2>
+<form method="POST">
+    {% csrf_token %}
+    <textarea name="address" placeholder="Enter shipping address"></textarea>
+    <button type="submit" class="btn btn-primary">Complete Purchase</button>
+</form>
