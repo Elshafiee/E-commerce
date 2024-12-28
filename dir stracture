@@ -1,0 +1,16 @@
+/ecommerce_site
+  /store
+    /templates
+      /store
+        product_list.html
+        register.html
+        login.html
+        cart.html
+        checkout.html
+    models.py
+    views.py
+    urls.py
+  /ecommerce_site
+    settings.py
+    urls.py
+  manage.py
